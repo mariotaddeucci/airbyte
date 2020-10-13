@@ -105,8 +105,7 @@ class TestPostgresDestination {
             "('1598659200', '2.13', '0.12', null)",
             "('1598745600', '7.15', '1.14', null)",
             "('1598832000', '7.15', '1.14', '10.16')",
-            "('1598918400', '7.15', '1.14', '10.16')"
-        );
+            "('1598918400', '7.15', '1.14', '10.16')");
 
     writeResourceToStdIn("singer-tap-output.txt", process);
     process.getOutputStream().close();
