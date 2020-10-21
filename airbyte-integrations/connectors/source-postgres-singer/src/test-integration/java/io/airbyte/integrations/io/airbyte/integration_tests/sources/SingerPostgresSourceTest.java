@@ -78,7 +78,7 @@ import org.testcontainers.utility.MountableFile;
 public class SingerPostgresSourceTest {
 
   private static final Logger LOGGER = LoggerFactory.getLogger(SingerPostgresSourceTest.class);
-  private static final String IMAGE_NAME = "airbyte/postgres-singer-source-abprotocol:dev";
+  private static final String IMAGE_NAME = "airbyte/postgres-singer-source:dev";
   private static final Path TESTS_PATH = Path.of("/tmp/airbyte_integration_tests");
 
   private PostgreSQLContainer psqlDb;
